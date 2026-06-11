@@ -212,8 +212,11 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 480px;
-    height: 270px;
+    height: auto;
+    width: 60%;
+    max-width: 100%;       
+    height: auto;     
+    aspect-ratio: 16 / 9;
     padding-bottom: 1px;
     padding-top: 5px;
     border-color: black;
@@ -291,7 +294,7 @@ body {
 }
 
 .galleryButton{
-    font-size: 101px;
+    font-size: 100px;
 }
 
 @media screen and (max-width: 900px) {
